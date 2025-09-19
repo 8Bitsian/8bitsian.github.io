@@ -1,0 +1,133 @@
+/*
+    Author: Imani Hollie
+    Date: September 19, 2025
+*/
+
+/* --- CSS Reset --------------------------------- */
+body, header, nav, main, footer, img, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* --- Base Styles ------------------------------- */
+body {
+  background-color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* --- Typography -------------------------------- */
+.rubik-burned-regular {
+  font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+}
+
+/* --- Header ------------------------------------ */
+
+/* --- Navigation -------------------------------- */
+nav {
+  background-color: #8C52FF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li a {
+  color: #8C52FF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.02em;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f0c981;
+}
+
+/* --- Main Content ------------------------------ */
+main {
+  background-color: #8C52FF;
+  padding: 3%;
+  font-size: 1.25em;
+}
+
+main h1 {
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+}
+
+main p {
+  color: #ffffff;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* --- Footer ------------------------------------ */
+footer {
+  background-color: #0d0c0c;
+  text-align: center;
+  padding: 1em 0;
+}
+
+footer p, footer a {
+  color: #f6f4f0;
+  font-size: 0.75em;
+  font-style: normal;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+/* --- Desktop Media Query (1014px) -------------- */
+@media (min-width: 1024px) {
+  .responsive-image {
+    padding-top: 60px;
+  }
+}
+
+/* --- Bootstrap Enhancements -------------------- */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
