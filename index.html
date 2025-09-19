@@ -38,23 +38,49 @@
     </header>
     
     <!-- Navigation -->
-    <nav>
-      <!-- Hamburger Menu Icon -->
-      
-      <!-- Navigation Links -->
-      <div>
-        <ul>
-          <li class="nav-item"><a class="nav-link fw-bold href="index.html>HOME</a></li>
-          <li class="nav-item"><a class="nav-link fw-bold href="about.html>ABOUT</a></li>
-          <li class="nav-item"><a class="nav-link fw-bold href="newsletter.html>NEWSLETTER</a></li>
-          <li class="nav-item"><a class="nav-link fw-bold href="contact.html>CONTACT</a></li>
-        </ul>
+    <nav class="section-navigation navbar navbar-expand-sm navbar-dark fixed-top">
+      <div class="container-fluid">
+        <!-- navigation bar icon -->
+        
+        <!-- Hamburger Menu Icon -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id=navbarResponsive>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link fw-bold href="index.html>HOME</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold href="about.html>ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold href="newsletter.html>NEWSLETTER</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold href="contact.html>CONTACT</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     
     <!-- Main Content -->
+    <main class="section-main container-fluid p-5">
+      <div id="welcome">
+        <h1>SALUTES</h1>
+        <p>I am Imani (Bitsy) Hollie, the creator of 8Bitsian.</p>
+        <p>I am currently studying to be a software developer and want to share my experiences with others as I learn how to code.</p>
+        <p>Here I want to help others get involved in programming and share what I learn.</p>
+      </div>
+    </main>
     
     <!-- Footer -->
+    <footer class="section-footer jumbotron jumbotron-fluid text-center p-5">
+      <div class="container text-white">
+        <p>&copy; Copyright 2025. All Rights Reserved.</p>
+        <p><a href="mailto:8Bitsian@gmail.com" class="text-white">8Bitisan@gmail.com</a></p>
+      </div>
+    </footer>
   </div>
+  
   <!-- Scripts -->
+  <script src="scripts/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
+</html>
