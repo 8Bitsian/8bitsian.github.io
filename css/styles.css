@@ -12,7 +12,7 @@ body, header, nav, main, footer, img, h1, h2, h3 {
 
 /* --- Base Styles ------------------------------- */
 body {
-  background-color: #ffffff;
+  background-color: #f2f4f5;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -50,7 +50,7 @@ h1, h2, h3 {
 
 /* --- Navigation -------------------------------- */
 nav {
-  background-color: #8C52FF;
+  background-color: #8c52ff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -67,19 +67,19 @@ nav ul {
 }
 
 nav li a {
-  color: #8C52FF;
+  color: #f2f4f5;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.02em;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #f0c981;
+  color: #f2f4f5;
 }
 
 /* --- Main Content ------------------------------ */
 main {
-  background-color: #8C52FF;
+  background-color: #f2f4f5;
   padding: 3%;
   font-size: 1.25em;
 }
@@ -90,20 +90,20 @@ main h1 {
 }
 
 main p {
-  color: #ffffff;
+  color: #8c52ff;
   font-size: 1.1em;
   line-height: 1.6;
 }
 
 /* --- Footer ------------------------------------ */
 footer {
-  background-color: #0d0c0c;
+  background-color: #8c52ff;
   text-align: center;
   padding: 1em 0;
 }
 
 footer p, footer a {
-  color: #f6f4f0;
+  color: #f2f4f5;
   font-size: 0.75em;
   font-style: normal;
 }
